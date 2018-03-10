@@ -1,0 +1,18 @@
+# started on Fri Mar  9 14:09:56 2018
+
+
+ Performance counter stats for 'make clean clang':
+
+       5032.093130      task-clock (msec)         #    0.966 CPUs utilized          
+               801      context-switches          #    0.159 K/sec                  
+                84      cpu-migrations            #    0.017 K/sec                  
+           299,641      page-faults               #    0.060 M/sec                  
+    13,965,364,991      cycles                    #    2.775 GHz                    
+     8,133,368,620      stalled-cycles-frontend   #   58.24% frontend cycles idle   
+    14,262,355,703      instructions              #    1.02  insn per cycle         
+                                                  #    0.57  stalled cycles per insn
+     2,778,277,440      branches                  #  552.112 M/sec                  
+        61,784,706      branch-misses             #    2.22% of all branches        
+
+       5.206727224 seconds time elapsed
+

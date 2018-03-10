@@ -1,0 +1,18 @@
+# started on Fri Mar  9 14:09:51 2018
+
+
+ Performance counter stats for 'make clean gcc':
+
+       4916.738212      task-clock (msec)         #    0.984 CPUs utilized          
+               692      context-switches          #    0.141 K/sec                  
+               112      cpu-migrations            #    0.023 K/sec                  
+           270,269      page-faults               #    0.055 M/sec                  
+    13,415,893,735      cycles                    #    2.729 GHz                    
+     6,918,200,871      stalled-cycles-frontend   #   51.57% frontend cycles idle   
+    15,613,361,877      instructions              #    1.16  insn per cycle         
+                                                  #    0.44  stalled cycles per insn
+     3,342,718,445      branches                  #  679.865 M/sec                  
+        78,168,533      branch-misses             #    2.34% of all branches        
+
+       4.995386112 seconds time elapsed
+

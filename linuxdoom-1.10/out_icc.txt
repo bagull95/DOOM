@@ -1,0 +1,18 @@
+# started on Fri Mar  9 14:10:01 2018
+
+
+ Performance counter stats for 'make clean icc':
+
+          9.422004      task-clock (msec)         #    0.951 CPUs utilized          
+                 5      context-switches          #    0.531 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+               580      page-faults               #    0.062 M/sec                  
+        16,989,400      cycles                    #    1.803 GHz                    
+         9,570,353      stalled-cycles-frontend   #   56.33% frontend cycles idle   
+        17,077,074      instructions              #    1.01  insn per cycle         
+                                                  #    0.56  stalled cycles per insn
+         3,263,490      branches                  #  346.369 M/sec                  
+           118,538      branch-misses             #    3.63% of all branches        
+
+       0.009902977 seconds time elapsed
+
